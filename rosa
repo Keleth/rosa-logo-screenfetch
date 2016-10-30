@@ -1,0 +1,24 @@
+c1=$(getColor 'rosa_blue') # special blue color from ROSA
+c2=$(getColor 'white') # White
+startline="3"
+fulloutput=(
+"$c1              \`\`\`\`\`\`\`\`\`\`\`\`               "
+"$c1          \`\`$c2./oyhddddddhyo/-$c1\`\`           "
+"$c1       \`\`$c2-sdmyo/-$c1......$c2-:+ydmy/.$c1\`        "
+"$c1     \`$c2./dms-$c1................$c2-+dmo.$c1\`      %s"
+"$c1    \`$c2-dm+$c1......................$c2:hm/.$c1\`    %s"
+"$c1   .$c2/Ny$c1........$c2:+ssyhhhhdddMh$c1....$c2+Ns.$c1\`   %s"
+"$c1  .$c2/Mo$c1......$c2/hdy+/:--$c1.....$c2.Mm$c1.....$c2:Ny.$c1\`  %s"
+"$c1 .$c2.Ny$c1.....$c2:dd/$c1...........$c2.NsM-$c1.....$c2+M+$c1\`  %s"
+"$c1 .$c2.M-$c1....$c2:Ns$c1...........$c2-dd$c1-$c2:M/$c1......$c2\d.$c1\` %s"
+"$c1\`$c2.dm$c1.....$c2:h$c1...........$c2-Ns$c1...$c2:s$c1......$c2.M.$c1\` %s"
+"$c1\`$c2.dm$c1.....$c2:o$c1.........$c2/mh:$c1....$c2:y$c1......$c2:M.$c1\` %s"
+"$c1 .$c2;M-$c1....$c2:y$c1.......$c2+mh:$c1......$c2:o$c1......$c2:m.$c1\` %s"
+"$c1 .$c2-Ms$c1....$c2/M/$c1..$c2-+hms$c1-.......$c2:m$c1......$c2/Mo$c1.  %s"
+"$c1  .$c2.M/$c1....$c2/Nddhs:$c1........$c2:dd-$c1.....$c2-mh.$c1\`  %s"
+"$c1  \`$c2.oMo$c1....$c2-smh+:$c1....$c2-/odd/$c1......$c2:mh.$c1\`   %s"
+"$c1   \`$c2./md:$c1.....$c2:oyhhhhhs+-$c1......$c2-yNo.$c1\`    %s"
+"$c1     \`$c2.omh+$c1..................$c2:yNy-$c1\`      %s"
+"$c1       \`$c2./ymho/-$c1.........$c2:+ymdo-$c1\`        %s"
+"$c1         \`\`$c2.:oyddddddddddyo/.$c1\`\`          %s"
+"$c1             \`\`\`\`\`....\`\`\`\`\`              %s")
